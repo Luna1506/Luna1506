@@ -1,18 +1,79 @@
-# 💫 About Me:
-Hey, ich bin Luna<br>Ich bastle an NixOS-Konfigurationen, baue Web-Sachen mit Java + React/TypeScript und habe immer irgendein kleines Projekt am Laufen, das niemand braucht — aber ich brauchte es.
+<p align="center">
+  <img src="assets/header.svg" alt="Hey, ich bin Luna. Ein Desktop im Glas-Look: links wechselnde Sätze darüber, was ich baue, rechts ein Terminal mit nerdfetch." width="100%">
+</p>
 
+<p align="center">
+  <a href="https://instagram.com/lxna_1506"><img src="https://img.shields.io/badge/Instagram-lxna__1506-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0b0b12" alt="Instagram"></a>
+  <a href="mailto:luna.haiplick@torte-tech.de"><img src="https://img.shields.io/badge/Mail-luna.haiplick@torte--tech.de-bb9af7?style=for-the-badge&logo=minutemailer&logoColor=white&labelColor=0b0b12" alt="E-Mail"></a>
+  <img src="https://komarev.com/ghpvc/?username=Luna1506&style=for-the-badge&color=7aa2f7&label=PROFILAUFRUFE" alt="Profilaufrufe">
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/lxna_1506) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:luna.haiplick@torte-tech.de) 
+Hey, ich bin **Luna** 👋 &nbsp;Ich bastle an NixOS-Konfigurationen, baue Web-Sachen mit Java + React/TypeScript und habe immer irgendein kleines Projekt am Laufen, das niemand braucht. Aber ich brauchte es.
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=flat&logo=lua&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![Nix](https://img.shields.io/badge/NIX-5277C3.svg?style=flat&logo=NixOS&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=flat&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=Hibernate&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=flat&logo=playwright&logoColor=white) ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=flat&logo=confluence&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat&logo=jira&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=flat&logo=Gradle&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=flat&logo=openapiinitiative&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=flat&logo=prettier&logoColor=black) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=flat&logo=nVIDIA&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=flat&logo=steam&logoColor=white) ![Ubisoft](https://img.shields.io/badge/Ubisoft-%23F5F5F5.svg?style=flat&logo=Ubisoft&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Luna1506&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Luna1506&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Luna1506&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+- 🎓 studiere an der **NORDAKADEMIE** und baue mir die Lern-Tools dafür selbst
+- ❄️ mein ganzer Laptop ist eine **Nix-Flake**: Hyprland, Glas, Blur, alles deklarativ
+- 🐳 hoste meine Sachen selbst: Docker, Nginx Proxy Manager, Cloudflare
+- 🤖 programmiere viel mit **Claude**, sogar meine Commit-Messages schreibt Claude
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Luna1506&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## ✦ Woran ich baue
+
+<p align="center">
+  <a href="https://github.com/Luna1506/nixos"><img src="assets/card-nixos.svg" alt="nixos: mein ganzer Laptop als Flake" width="49%"></a>
+  <a href="https://github.com/Luna1506/naklearn"><img src="assets/card-naklearn.svg" alt="NAKLearn: Lernkarten aus Vorlesungsfolien" width="49%"></a>
+  <a href="https://github.com/Luna1506/Kickerturnier"><img src="assets/card-kicker.svg" alt="Kickerturnier: Turnierverwaltung für Tischkicker" width="49%"></a>
+  <a href="https://github.com/Luna1506/Freiraumbande"><img src="assets/card-freiraum.svg" alt="Freiraumbande: Website mit Kalender und Admin-Bereich" width="49%"></a>
+</p>
+
+---
+
+## ✦ Womit ich baue
+
+<table align="center">
+  <tr>
+    <td align="right"><b>Sprachen</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,ts,js,py,lua,bash,nix,latex,md" alt="Java, TypeScript, JavaScript, Python, Lua, Bash, Nix, LaTeX, Markdown" height="40"></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,redux,vite,tailwind,figma" alt="React, Next.js, Redux, Vite, Tailwind, Figma" height="40"></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=spring,hibernate,nodejs,postgres,sqlite,nginx" alt="Spring, Hibernate, Node.js, PostgreSQL, SQLite, Nginx" height="40"></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Infra</b></td>
+    <td><img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,githubactions,gitlab,cloudflare,gradle,npm" alt="Linux, Docker, Kubernetes, GitHub Actions, GitLab, Cloudflare, Gradle, npm" height="40"></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=neovim,idea,vscode,postman,github" alt="Neovim, IntelliJ IDEA, VS Code, Postman, GitHub" height="40"></td>
+  </tr>
+</table>
+
+<p align="center"><sub>außerdem: Neo4j · JPA · JWT · OpenAPI/Swagger · React Query · React Hook Form · React Native · Playwright · ESLint · Prettier · Jira · Confluence</sub></p>
+
+---
+
+## ✦ In Zahlen
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Luna1506&locale=de&background=0B0B12&border=24243A&stroke=24243A&ring=BB9AF7&fire=FF9E64&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=565F89&border_radius=16" alt="GitHub-Streak" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luna1506&layout=compact&langs_count=8&locale=de&bg_color=0b0b12&title_color=bb9af7&icon_color=7aa2f7&text_color=c0caf5&border_color=24243a&border_radius=16" alt="Meistgenutzte Sprachen" height="180">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luna1506/Luna1506/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/Luna1506/Luna1506/output/snake-light.svg" alt="Eine Schlange frisst meine Contribution-Grafik">
+  </picture>
+</p>
+
+---
+
+<p align="center">
+  <sub>🎮 Abseits vom Code: Steam, Ubisoft und Minecraft mit viel zu vielen Fabric-Mods.<br>
+  <code>&lt; luna@nixos ~ &gt; rebuild</code></sub>
+</p>

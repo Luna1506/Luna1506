@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="Hey, ich bin Luna. Links wechseln Sätze darüber, was ich baue; rechts zeigt ein Terminal nerdfetch mit NixOS, Hyprland und neovim.">
+  <defs>
+    <clipPath id="card"><rect width="1200" height="460" rx="22"/></clipPath>
+    <clipPath id="win-left"><rect x="20" y="62" width="560" height="378" rx="25"/></clipPath>
+    <clipPath id="win-right"><rect x="590" y="62" width="590" height="378" rx="25"/></clipPath>
+    <clipPath id="bar"><rect x="20" y="14" width="1160" height="36" rx="18"/></clipPath>
+    <clipPath id="type"><rect x="789.4" y="99" width="0" height="26">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" calcMode="discrete"
+        values="0;10.2;20.4;30.6;40.8;51;61.2;71.4;81.6;91.8;0"
+        keyTimes="0;0.04;0.05;0.06;0.07;0.08;0.09;0.1;0.11;0.12;0.96"/>
+    </rect></clipPath>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="frost" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"/>
+    </filter>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.10"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#c0caf5"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+
+    <g id="blobs">
+      <circle cx="240" cy="360" r="180" fill="#bb9af7">
+        <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite"
+          values="0 0; 130 -70; 40 40; 0 0" keyTimes="0;0.33;0.66;1" calcMode="spline"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+      <circle cx="930" cy="120" r="190" fill="#7aa2f7">
+        <animateTransform attributeName="transform" type="translate" dur="22s" repeatCount="indefinite"
+          values="0 0; -160 90; -40 -30; 0 0" keyTimes="0;0.4;0.7;1" calcMode="spline"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+      <circle cx="620" cy="460" r="150" fill="#7dcfff">
+        <animateTransform attributeName="transform" type="translate" dur="16s" repeatCount="indefinite"
+          values="0 0; 80 -120; -90 -40; 0 0" keyTimes="0;0.3;0.7;1" calcMode="spline"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+      <circle cx="1130" cy="420" r="120" fill="#f7768e">
+        <animateTransform attributeName="transform" type="translate" dur="20s" repeatCount="indefinite"
+          values="0 0; -100 -90; 0 -150; 0 0" keyTimes="0;0.35;0.7;1" calcMode="spline"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+    </g>
+
+    <g id="flake" font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="46" font-weight="800" fill="url(#name)" text-anchor="middle">
+      <text x="0" y="-18">λ</text>
+      <text x="0" y="-18" transform="rotate(60)">λ</text>
+      <text x="0" y="-18" transform="rotate(120)">λ</text>
+      <text x="0" y="-18" transform="rotate(180)">λ</text>
+      <text x="0" y="-18" transform="rotate(240)">λ</text>
+      <text x="0" y="-18" transform="rotate(300)">λ</text>
+    </g>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="460" fill="#07070b"/>
+    <g opacity="0.75" filter="url(#soft)"><use href="#blobs" xlink:href="#blobs"/></g>
+
+    <!-- waybar -->
+    <g clip-path="url(#bar)">
+      <g opacity="0.9" filter="url(#frost)"><use href="#blobs" xlink:href="#blobs"/></g>
+      <rect x="20" y="14" width="1160" height="36" fill="#0b0b12" opacity="0.55"/>
+    </g>
+    <rect x="20.5" y="14.5" width="1159" height="35" rx="17.5" fill="none" stroke="#fff" stroke-opacity="0.12"/>
+    <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#fff">
+      <rect x="40" y="25" width="30" height="14" rx="7" fill="#fff"/>
+      <rect x="78" y="25" width="14" height="14" rx="7" fill="#fff" fill-opacity="0.35"/>
+      <rect x="100" y="25" width="14" height="14" rx="7" fill="#fff" fill-opacity="0.35"/>
+      <text x="600" y="37" text-anchor="middle" fill-opacity="0.55">github.com/Luna1506</text>
+      <text x="1160" y="37" text-anchor="end" fill-opacity="0.75">♪ lofi   ·   wifi 94%   ·   bat 100%   ·   21:47   ⏻</text>
+    </g>
+
+    <!-- linkes Fenster -->
+    <g clip-path="url(#win-left)">
+      <g opacity="0.95" filter="url(#frost)"><use href="#blobs" xlink:href="#blobs"/></g>
+      <rect x="20" y="62" width="560" height="378" fill="#0b0b12" opacity="0.5"/>
+      <rect x="20" y="62" width="560" height="378" fill="url(#sheen)"/>
+      <rect x="20" y="62" width="560" height="378" filter="url(#grain)"/>
+    </g>
+    <rect x="20.5" y="62.5" width="559" height="377" rx="24.5" fill="none" stroke="#fff" stroke-opacity="0.18"/>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" fill="#fff">
+      <text x="56" y="108" font-size="14" fill-opacity="0.45">~/Luna1506/README.md</text>
+      <text x="56" y="182" font-size="36" font-weight="600" fill-opacity="0.85">Hey, ich bin</text>
+      <text x="50" y="296" font-size="132" font-weight="800" letter-spacing="-5" fill="url(#name)">Luna</text>
+      <rect x="360" y="206" width="9" height="94" rx="2" fill="#bb9af7">
+        <animate attributeName="opacity" dur="1.1s" repeatCount="indefinite" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete"/>
+      </rect>
+
+      <!-- wechselnde Sätze -->
+      <g font-size="19">
+        <text x="56" y="352" fill="#7aa2f7" font-weight="700">&gt;</text>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1"/>
+          <text x="80" y="352">baue NixOS-Configs mit Glas &amp; Blur</text>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.25;0.28;0.47;0.5;1"/>
+          <text x="80" y="352">schreibe Web-Apps mit Java + React/TS</text>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5;0.53;0.72;0.75;1"/>
+          <text x="80" y="352">lasse Claude meine Lernkarten schreiben</text>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.75;0.78;0.97;1"/>
+          <text x="80" y="352">baue Dinge, die niemand braucht – außer mir</text>
+        </g>
+      </g>
+      <text x="56" y="412" font-size="12" fill-opacity="0.4">Java · TypeScript · Nix · Lua · ein bisschen zu viel rebuild</text>
+    </g>
+
+    <!-- rechtes Fenster: Terminal -->
+    <g clip-path="url(#win-right)">
+      <g opacity="0.95" filter="url(#frost)"><use href="#blobs" xlink:href="#blobs"/></g>
+      <rect x="590" y="62" width="590" height="378" fill="#000" opacity="0.55"/>
+      <rect x="590" y="62" width="590" height="378" fill="url(#sheen)"/>
+      <rect x="590" y="62" width="590" height="378" filter="url(#grain)"/>
+    </g>
+    <rect x="590.5" y="62.5" width="589" height="377" rx="24.5" fill="none" stroke="#fff" stroke-opacity="0.95"/>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" fill="#fff">
+      <text x="616" y="114" font-size="17" textLength="163.2" lengthAdjust="spacingAndGlyphs">&lt; <tspan font-weight="700">luna</tspan>@<tspan font-weight="700">nixos</tspan> <tspan font-weight="700">~</tspan> &gt;</text>
+      <text x="789.4" y="114" font-size="17" textLength="91.8" lengthAdjust="spacingAndGlyphs" fill="#7aa2f7" font-weight="700" clip-path="url(#type)">nerdfetch</text>
+      <rect x="789.4" y="99" width="10" height="19" fill="#fff">
+        <animate attributeName="x" dur="12s" repeatCount="indefinite" calcMode="discrete"
+          values="789.4;799.6;809.8;820.0;830.2;840.4;850.6;860.8;871.0;881.2;-50;789.4"
+          keyTimes="0;0.04;0.05;0.06;0.07;0.08;0.09;0.1;0.11;0.12;0.14;0.96"/>
+        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete"/>
+      </rect>
+
+      <!-- Ausgabe -->
+      <g opacity="0">
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.15;0.96"/>
+        <g transform="translate(696 262)">
+          <use href="#flake" xlink:href="#flake"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" additive="sum"/>
+        </g>
+      </g>
+      <g font-size="15.5">
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.15;0.96"/>
+          <text x="790" y="162"><tspan fill="#7aa2f7" font-weight="700">luna</tspan><tspan fill-opacity="0.6">@</tspan><tspan fill="#bb9af7" font-weight="700">nixos</tspan></text>
+          <text x="790" y="184" fill-opacity="0.35">──────────────────</text>
+        </g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.16;0.96"/>
+          <text x="790" y="212"><tspan fill="#7aa2f7">os</tspan><tspan x="868">NixOS unstable</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.17;0.96"/>
+          <text x="790" y="238"><tspan fill="#7aa2f7">wm</tspan><tspan x="868">Hyprland (Lua-Config)</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.18;0.96"/>
+          <text x="790" y="264"><tspan fill="#7aa2f7">shell</tspan><tspan x="868">bash + starship</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.19;0.96"/>
+          <text x="790" y="290"><tspan fill="#7aa2f7">term</tspan><tspan x="868">ghostty</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.2;0.96"/>
+          <text x="790" y="316"><tspan fill="#7aa2f7">editor</tspan><tspan x="868">neovim</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.21;0.96"/>
+          <text x="790" y="342"><tspan fill="#7aa2f7">code</tspan><tspan x="868">Java · TypeScript · Nix</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.22;0.96"/>
+          <text x="790" y="368"><tspan fill="#7aa2f7">uni</tspan><tspan x="868">NORDAKADEMIE</tspan></text></g>
+        <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.23;0.96"/>
+          <rect x="790" y="386" width="22" height="14" rx="3" fill="#f7768e"/>
+          <rect x="816" y="386" width="22" height="14" rx="3" fill="#ff9e64"/>
+          <rect x="842" y="386" width="22" height="14" rx="3" fill="#e0af68"/>
+          <rect x="868" y="386" width="22" height="14" rx="3" fill="#9ece6a"/>
+          <rect x="894" y="386" width="22" height="14" rx="3" fill="#7dcfff"/>
+          <rect x="920" y="386" width="22" height="14" rx="3" fill="#7aa2f7"/>
+          <rect x="946" y="386" width="22" height="14" rx="3" fill="#bb9af7"/>
+          <rect x="972" y="386" width="22" height="14" rx="3" fill="#c0caf5"/>
+        </g>
+      </g>
+      <text x="1156" y="422" font-size="12" text-anchor="end" fill-opacity="0.35">ghostty</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="212" viewBox="0 0 600 212" role="img" aria-label="nixos: Mein ganzer Laptop als Flake: Hyprland mit Lua-Config, Glas &amp; Blur, vela und ein rebuild, das Claude committen lässt.">
+  <defs>
+    <clipPath id="clip-nixos"><rect width="600" height="212" rx="20"/></clipPath>
+    <linearGradient id="accent-nixos" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+    <filter id="soft-nixos" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+  </defs>
+  <g clip-path="url(#clip-nixos)">
+    <rect width="600" height="212" fill="#0b0b12"/>
+    <g filter="url(#soft-nixos)" opacity="0.45">
+      <circle cx="520" cy="40" r="110" fill="#7aa2f7">
+        <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="0 0;-50 40;0 0"/>
+      </circle>
+      <circle cx="470" cy="220" r="90" fill="#bb9af7">
+        <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" values="0 0;40 -30;0 0"/>
+      </circle>
+    </g>
+    <rect x="0.5" y="0.5" width="599" height="211" rx="19.5" fill="none" stroke="#fff" stroke-opacity="0.13"/>
+    
+  <g transform="translate(505 92)">
+    <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="800" fill="url(#accent-nixos)" text-anchor="middle">
+      <text y="-17">λ</text><text y="-17" transform="rotate(60)">λ</text><text y="-17" transform="rotate(120)">λ</text>
+      <text y="-17" transform="rotate(180)">λ</text><text y="-17" transform="rotate(240)">λ</text><text y="-17" transform="rotate(300)">λ</text>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" additive="sum"/>
+  </g>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif" fill="#ececf0">
+      <text x="28" y="70" font-size="30" font-weight="800" letter-spacing="-0.5" fill="url(#accent-nixos)">nixos</text>
+      <text x="28" y="32" font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill-opacity="0.45">Luna1506/nixos</text>
+      <g font-size="14.5" fill-opacity="0.82">
+    <text x="28" y="108">Mein ganzer Laptop als Flake: Hyprland</text>
+    <text x="28" y="130">mit Lua-Config, Glas &amp; Blur, vela und ein</text>
+    <text x="28" y="152">rebuild, das Claude committen lässt.</text>
+      </g>
+      <g font-size="11.5" fill="#ececf0">
+    <rect x="28" y="174" width="41.4" height="24" rx="12" fill="#7aa2f7" fill-opacity="0.10" stroke="#7aa2f7" stroke-opacity="0.55"/><text x="48.7" y="190" text-anchor="middle">Nix</text>
+    <rect x="77.4" y="174" width="74.4" height="24" rx="12" fill="#7aa2f7" fill-opacity="0.10" stroke="#7aa2f7" stroke-opacity="0.55"/><text x="114.6" y="190" text-anchor="middle">Hyprland</text>
+    <rect x="159.8" y="174" width="99.4" height="24" rx="12" fill="#7aa2f7" fill-opacity="0.10" stroke="#7aa2f7" stroke-opacity="0.55"/><text x="209.5" y="190" text-anchor="middle">Home Manager</text>
+      </g>
+      <circle cx="544.6" cy="186" r="5.5" fill="#7e7eff"/>
+      <text x="572" y="190.5" font-size="12" fill-opacity="0.6" text-anchor="end">Nix</text>
+    </g>
+  </g>
+</svg>
