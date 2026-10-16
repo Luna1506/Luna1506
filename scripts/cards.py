@@ -7,13 +7,11 @@ MONO = "ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospa
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif"
 
 FLAKE = """
-  <g transform="translate(505 92)">
-    <g font-family="{mono}" font-size="44" font-weight="800" fill="url(#accent-{ID})" text-anchor="middle">
-      <text y="-17">λ</text><text y="-17" transform="rotate(60)">λ</text><text y="-17" transform="rotate(120)">λ</text>
-      <text y="-17" transform="rotate(180)">λ</text><text y="-17" transform="rotate(240)">λ</text><text y="-17" transform="rotate(300)">λ</text>
-    </g>
-    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" additive="sum"/>
-  </g>""".replace("{mono}", MONO)
+  <defs><symbol id="nixlogo" viewBox="0 0 501.56251 501.56249"><defs id="nx-defs4"> <linearGradient id="nx-linearGradient5562"> <stop style="stop-color:#699ad7;stop-opacity:1" offset="0" id="nx-stop5564" /> <stop id="nx-stop5566" offset="0.24345198" style="stop-color:#7eb1dd;stop-opacity:1" /> <stop style="stop-color:#7ebae4;stop-opacity:1" offset="1" id="nx-stop5568" /> </linearGradient> <linearGradient id="nx-linearGradient5053"> <stop style="stop-color:#415e9a;stop-opacity:1" offset="0" id="nx-stop5055" /> <stop id="nx-stop5057" offset="0.23168644" style="stop-color:#4a6baf;stop-opacity:1" /> <stop style="stop-color:#5277c3;stop-opacity:1" offset="1" id="nx-stop5059" /> </linearGradient> <linearGradient href="#nx-linearGradient5562" xlink:href="#nx-linearGradient5562" id="nx-linearGradient4328" gradientUnits="userSpaceOnUse" gradientTransform="translate(70.650339,-1055.1511)" x1="200.59668" y1="351.41116" x2="290.08701" y2="506.18814" /> <linearGradient href="#nx-linearGradient5053" xlink:href="#nx-linearGradient5053" id="nx-linearGradient4330" gradientUnits="userSpaceOnUse" gradientTransform="translate(864.69589,-1491.3405)" x1="-584.19934" y1="782.33563" x2="-496.29703" y2="937.71399" /> </defs> <g id="nx-layer3" style="opacity:1" transform="translate(-156.41121,933.30685)"> <g id="nx-g2" transform="matrix(0.99994059,0,0,0.99994059,-0.06321798,33.188377)"> <path id="nx-path3336-6" d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8257 z" style="opacity:1;fill:url(#nx-linearGradient4328);fill-opacity:1;fill-rule:evenodd" /> <use height="100%" width="100%" transform="rotate(60,407.11155,-715.78724)" id="nx-use3439-6" href="#nx-path3336-6" xlink:href="#nx-path3336-6" y="0" x="0" /> <use height="100%" width="100%" transform="rotate(-60,407.31177,-715.70016)" id="nx-use3445-0" href="#nx-path3336-6" xlink:href="#nx-path3336-6" y="0" x="0" /> <use height="100%" width="100%" transform="rotate(180,407.41868,-715.7565)" id="nx-use3449-5" href="#nx-path3336-6" xlink:href="#nx-path3336-6" y="0" x="0" /> <path style="opacity:1;fill:url(#nx-linearGradient4330);fill-opacity:1;fill-rule:evenodd" d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8256 z" id="nx-path4260-0" /> <use height="100%" width="100%" transform="rotate(120,407.33916,-716.08356)" id="nx-use4354-5" href="#nx-path4260-0" xlink:href="#nx-path4260-0" y="0" x="0" /> <use height="100%" width="100%" transform="rotate(-120,407.28823,-715.86995)" id="nx-use4362-2" href="#nx-path4260-0" xlink:href="#nx-path4260-0" y="0" x="0" /> </g> </g> </symbol></defs>
+  <g transform="translate(505 94)">
+    <use href="#nixlogo" xlink:href="#nixlogo" x="-56" y="-56" width="112" height="112"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" additive="sum"/>
+  </g>"""
 
 FLASHCARDS = """
   <rect x="452" y="52" width="104" height="70" rx="10" fill="#2e2a52" stroke="#a89bff" stroke-opacity="0.7" transform="rotate(-8 504 87)"/>
@@ -119,7 +117,7 @@ def chip_row(chips: list[str], color: str) -> str:
 for c in CARDS:
     desc = "\n    ".join(f'<text x="28" y="{108 + i * 22}">{line}</text>' for i, line in enumerate(c["desc"]))
     lang_name, lang_color = c["lang"]
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="600" height="212" viewBox="0 0 600 212" role="img" aria-label="{escape(c['title'])}: {escape(' '.join(c['desc']).replace('&amp;', '&'))}">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="212" viewBox="0 0 600 212" role="img" aria-label="{escape(c['title'])}: {escape(' '.join(c['desc']).replace('&amp;', '&'))}">
   <defs>
     <clipPath id="clip-{{ID}}"><rect width="600" height="212" rx="20"/></clipPath>
     <linearGradient id="accent-{{ID}}" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="{c['c1']}"/><stop offset="1" stop-color="{c['c2']}"/></linearGradient>
