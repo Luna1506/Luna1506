@@ -1,4 +1,4 @@
-### Hallo, ich bin Luna Haiplick
+<img src="assets/header.svg" alt="Luna Haiplick – Webanwendungen mit Java und TypeScript, NixOS-Konfiguration als Code, Self-Hosting mit Docker" width="100%">
 
 Ich studiere an der NORDAKADEMIE und entwickle Webanwendungen mit Java (Spring Boot) und TypeScript (React). Daneben beschäftige ich mich mit NixOS, Self-Hosting und Werkzeugen, die alltägliche Abläufe vereinfachen.
 
