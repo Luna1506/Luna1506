@@ -13,7 +13,6 @@ Hey, ich bin **Luna** 👋 &nbsp;Ich bastle an NixOS-Konfigurationen, baue Web-S
 - 🎓 studiere an der **NORDAKADEMIE** und baue mir die Lern-Tools dafür selbst
 - ❄️ mein ganzer Laptop ist eine **Nix-Flake**: Hyprland, Glas, Blur, alles deklarativ
 - 🐳 hoste meine Sachen selbst: Docker, Nginx Proxy Manager, Cloudflare
-- 🤖 programmiere viel mit **Claude**, sogar meine Commit-Messages schreibt Claude
 
 ---
 
@@ -67,13 +66,12 @@ Hey, ich bin **Luna** 👋 &nbsp;Ich bastle an NixOS-Konfigurationen, baue Web-S
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luna1506/Luna1506/output/snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/Luna1506/Luna1506/output/snake-light.svg" alt="Eine Schlange frisst meine Contribution-Grafik">
+    <img src="https://raw.githubusercontent.com/Luna1506/Luna1506/output/snake-light.svg" alt="Contribution-Grafik">
   </picture>
 </p>
 
 ---
 
 <p align="center">
-  <sub>🎮 Abseits vom Code: Steam, Ubisoft und Minecraft mit viel zu vielen Fabric-Mods.<br>
-  <code>&lt; luna@nixos ~ &gt; rebuild</code></sub>
+  <sub>🎮 Abseits vom Code: Steam, Ubisoft, Minecraft</sub>
 </p>

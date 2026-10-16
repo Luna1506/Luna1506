@@ -80,14 +80,14 @@ CARDS = [
     dict(
         file="card-nixos.svg", title="nixos", repo="Luna1506/nixos", c1="#7aa2f7", c2="#bb9af7",
         lang=("Nix", "#7e7eff"),
-        desc=["Mein ganzer Laptop als Flake: Hyprland", "mit Lua-Config, Glas &amp; Blur, vela und ein", "rebuild, das Claude committen lässt."],
+        desc=["Mein ganzer Laptop als Flake: Hyprland", "mit Lua-Config, Glas &amp; Blur, vela und ein", "eigene Befehle für Rebuild und Pakete."],
         chips=["Nix", "Hyprland", "Home Manager"], art=FLAKE,
     ),
     dict(
         file="card-naklearn.svg", title="NAKLearn", repo="Luna1506/naklearn", c1="#c9c0ff", c2="#8f7dff",
         lang=("TypeScript", "#3178c6"),
-        desc=["Aus Vorlesungsfolien werden Lernkarten.", "Claude schreibt sie, FSRS plant sie: im", "Browser, auf Android und auf dem iPhone."],
-        chips=["React", "Capacitor", "Claude", "FSRS"], art=FLASHCARDS,
+        desc=["Erstellt aus Vorlesungsfolien Lernkarten", "und plant die Wiederholungen mit FSRS: im", "Browser, auf Android und auf dem iPhone."],
+        chips=["React", "Capacitor", "FSRS", "SQLite"], art=FLASHCARDS,
     ),
     dict(
         file="card-kicker.svg", title="Kickerturnier", repo="Luna1506/Kickerturnier", c1="#9ece6a", c2="#73daca",
